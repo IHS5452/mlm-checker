@@ -6,7 +6,7 @@ const resultParagraph = document.getElementById("result");
 // Add an event listener to the checkButton
 checkButton.addEventListener("click", () => {
   // Get the company name from the input field and convert to lowercase
-  const companyName = companyNameInput.value.toLowerCase().trim();  // Reddit Suggestion from LiveCourage334: added this to remove special chaarcters
+  const companyName = companyNameInput.value.toLowerCase().trim();  // Reddit Suggestion from LiveCourage334: added this to remove special characters
 
   // Array of strings to check for MLM
   //Reddit suggestion from kmrkawa, GooGurka, BaskIceBall_is_life for new entries to the MLM list
@@ -576,7 +576,8 @@ checkButton.addEventListener("click", () => {
     'level',
     'le-vel',
     'ibummerang'
-    // Add other potential MLM-related keywords here
+    'master resell rights'
+  //other MLMs here
   ];
   
   // check if text field is blank
