@@ -575,7 +575,7 @@ checkButton.addEventListener("click", () => {
     'zyn',
     'level',
     'le-vel',
-    'ibummerang'
+    'ibummerang',
     'master resell rights'
   //other MLMs here
   ];
