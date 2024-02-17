@@ -11,7 +11,7 @@ checkButton.addEventListener("click", async () => {
     return;
   }
 
-  const mlmList = await fetch('companies/mlm.txt').then(response => response.text());
+  const mlmList = await fetch('companies/mlms.txt').then(response => response.text());
   const legitList = await fetch('companies/legitCompanies.txt').then(response => response.text());
 
   const mlmStrings = mlmList.split('\n').map(str => str.trim()).filter(Boolean);
